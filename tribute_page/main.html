@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dean Potter Tribute</title>
+        
+        <!-- Animate CSS Animations -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+        
+        <!-- Latest compiled and minified CSS Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        
+        <!-- Personal CSS -->
+        
+        <link rel="stylesheet" href="/tribute_page/DeanPotterStyleSheet.css">
+ 
+    </head>
+    <body>
+        
+        <!-- Responsive and animated header for page -->
+        
+        <div id="headertop" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                 <h1 class="animated fadeInDown">Dean Potter: <small>A daredevil and visionary</small></h1>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Responsive Slider -->
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-ls-12">
+                
+                    <div id="my-slider" class="carousel slide" data-ride="carousel">
+                    
+                        <!-- indicators dot nav -->
+                        
+                        <ol class="carousel-indicators">
+                            <li data-target="#my-slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#my-slider" data-slide-to="1"></li>
+                            <li data-target="#my-slider" data-slide-to="2"></li>
+                        </ol>
+                        
+                        <!-- wrapper for slides -->
+                        
+                        <div id="imagewrapper"  class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="DeanPotterClimbing.jpg" alt="Dean Potter climbing a very overhanging wall">
+                                <div class="carousel-caption">
+                                    <h3>Pushing the boundaries of climbing</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="DeanPotterHighLineResized.jpg" alt="Dean Potter on the Highline">
+                            </div>
+                            <div class="item">
+                                <img src="DeanPotterDogResized.jpg" alt="Dean Potter climbing with a dog on his back">
+                            </div>
+                        </div>
+                        
+                        <!-- controls or next and prev buttons -->
+                        
+                        <a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main> 
+            <article>
+                <p class="lead">Dean Potter was born in 1972 to an Army officer in a military hospital at Fort Leavenworth, Kansas and grew up in New Hampshire. He taught himself to climb when he was in high school in southern New Hampshire. He attended the University of New Hampshire, where he rowed varsity crew and the coach urged the team not just to beat the competition, but to "own" them. Potter decided that he didn't want to "own" anyone and he quit college and instead pursued his passion for climbing. He then went on to become a notable free climber, alpinist, BASE jumper, and highliner. Furthermore he was the modern inventor of FreeBASE climbing, which consists of climbing up a steep cliff face without a rope and in case of a fall deploying a parachute to reach safety.</p> 
+            </article>
+            <div class="freebase">
+                <a class="btn btn-primary" href="https://www.youtube.com/watch?v=LvEDpX7vw7E" target="_blank">See the world's first <b>"Free-Base"</b> jump <span class="glyphicon glyphicon-globe"></span>
+            </a>
+            </div> 
+        
+            <!-- Creating a simple Bootstrap timeline -->
+                
+            <div class="container">
+                <div class="page-header">
+                    <h3>Notable Ascents</h3>
+                </div>
+                    <ul>
+                        <li class="list-group">2002, Supercanaleta, Cerro Fitz Roy, Patagonia. First solo of route   </li>
+                        <li class="list-group">2006 Heaven (5.12d/13a) Glacier Point, Yosemite Valley. First solo ascent.</li>
+                        <li class="list-group">2008 Deep Blue Sea (5.12+), Eiger, Bernese Alps, Switzerland. First FreeBASE ascent of the Eiger.</li>
+                        <li class="list-group">2010 The Nose, El Capitan, Yosemite. Fastest ascent (2:36:45)</li>
+                    </ul>
+                </div>
+        </main>
+        <nav>
+            <h3 class="text-center"><b>Video Gallery</b></h3>
+                <div id="video-nav">
+                    <a class="btn btn-info" href="https://www.youtube.com/watch?v=AGWiZLy0YuI" target="_blank"><b>Wingsuit flying with your dog</b></a>
+                    <a class="btn btn-info" href="https://www.youtube.com/watch?v=wRUkolahw58" target="_blank"><b>High above the clouds</b></a>
+                    <a class="btn btn-info" href="https://www.youtube.com/watch?v=O4rgMyThtWI" target="_blank"><b>A dangerous first ascent</b></a>
+                    <a class="btn btn-info" href="https://www.youtube.com/watch?v=WhBecm7C1Dk" target=_blank><b>Jumping off a 2000m rockface</b></a>
+                </div>
+            </nav>
+         <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-centered">
+                    <a id="tribute-link" class="lead" href="http://www.mensjournal.com/adventure/outdoor/the-last-flight-of-dean-potter-20150522" target="_blank"><em>Read about his unfortunate death here</em></a>
+                </div>
+             </div>   
+        </div>   
+       
+        <footer class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container">
+                <div class="navbar-text pull-left">
+                    <p>&copy; 2017. Made with &hearts; by Svadhyaya</p>
+                </div>
+                <div class="pull-right">
+                    <a class="btn btn-danger" href="https://github.com/Svadhyaya" target="-blank"><span class="glyphicon glyphicon-star"></span> Follow on GitHub
+                    </a>
+                </div>
+            </div>    
+        </footer>
+        
+    <!-- JQuery Library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript Bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>

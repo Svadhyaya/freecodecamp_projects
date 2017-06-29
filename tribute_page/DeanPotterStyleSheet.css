@@ -1,0 +1,101 @@
+/*Original CSS for Dean Potter Tribute Page
+Samuel Kellerhals
+20.06.17*/
+
+body, html {
+    font-family: Rubik, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+article {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 2em;
+}
+
+.freebase {
+    text-align: center;
+    display: block;
+    margin-top: 3em;
+}
+
+#headertop {
+    background-color: black;
+    color: lightgrey;
+    min-height: 5em;
+}
+
+#imagewrapper {
+    max-height: 700; 
+}
+
+nav {
+    margin-bottom: 5em;
+}
+
+#video-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#video-nav > a {
+    flex-grow: 1;
+    line-height: 3;
+    text-align: center;
+    margin-right: 3px;
+    margin-left: 3px;
+    max-width: 250px;    
+}
+
+.pull-right {
+    position:relative;
+    top: 0.5em;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 10em;
+    text-align: center;    
+}
+
+.center-text {
+    margin-top: 10em;
+}
+
+#tribute-link {
+    color: black;
+    font-size: 17px;
+    transition: font-size 600ms ease 0s;
+    
+}
+
+#tribute-link:hover {
+    color: lightskyblue;
+    transition: font-size 450ms ease 0s;
+    font-size: 20px;
+    text-decoration:none;
+    
+}
+
+/* CSS Media Queries for Responsive Video Nav Bar */
+
+@media only screen and (max-width:45em){
+    #video-nav {
+        flex-direction:column;
+        margin-top: 3em;
+        margin-bottom: -1em;
+    } 
+#video-nav > a {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        max-width: 75vw;
+        position: relative;
+        top: 50%;
+        left: 50%;
+  transform: translate(-50%, -50%);
+}
+
